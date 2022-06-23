@@ -9,17 +9,17 @@ Custom URL Shortner
 
 ```sh
 # clone it
-git clone https://github.com/muhzi4u/express-starter.git
+git clone https://github.com/sumitmallick/URLShortner.git
 cd express-starter
 
 # Make it your own
 rm -rf .git && git init && npm init
 
 # Install dependencies
-yarn install
+npm/yarn install
 
 # Start  server
-yarn run server
+npm/yarn run server
 ```
 
 ## License

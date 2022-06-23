@@ -1,3 +1,3 @@
 module.exports = {
-  mongoURI: "mongodb+srv://cluster0.oyjaa.mongodb.net/url-shortner",
+  mongoURI: "mongodb://mongodb+srv://sumitmallick:Sumit321@cluster0.oyjaa.mongodb.net/?retryWrites=true&w=majority/url-shortner",
 };
