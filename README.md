@@ -18,7 +18,3 @@ npm/yarn install
 # Start  server
 npm/yarn run server
 ```
-
-## License
-
-MIT
