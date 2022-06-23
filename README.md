@@ -10,7 +10,7 @@ Custom URL Shortner
 ```sh
 # clone it
 git clone https://github.com/sumitmallick/URLShortner.git
-cd express-starter
+cd URLShortner
 
 # Make it your own
 rm -rf .git && git init && npm init
