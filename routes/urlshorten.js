@@ -34,7 +34,6 @@ module.exports = app => {
       try {
         // Find the item is in the cache
         urlData = await cache.getFromCache('originalUrl', JSON.stringify(queryOptions));
-        console.log(urlData);
         if (!urlData) {
           // Find the item is in the database
           urlData = await UrlShorten.findOne(queryOptions).exec();
