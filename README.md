@@ -12,9 +12,6 @@ Custom URL Shortner
 git clone https://github.com/sumitmallick/URLShortner.git
 cd URLShortner
 
-# Make it your own
-rm -rf .git && git init && npm init
-
 # Install dependencies
 npm/yarn install
 
