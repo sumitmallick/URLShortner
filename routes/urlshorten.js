@@ -6,7 +6,7 @@ const shortCode = require('../middlewares/uniqueUrlCode');
 
 const cache = require('../services/cache');
 module.exports = app => {
-  app.get('', async (req, res) => {
+  app.get('/', async (req, res) => {
     res.status(200).send('Ok');
   });
 
