@@ -7,12 +7,7 @@ const constants = require('./config/constants');
 mongoose.Promise = global.Promise;
 mongoose.set('debug', true);
 mongoose.connect(
-  constants.mongoURI,
-  {
-    keepAlive: true,
-    reconnectTries: Number.MAX_VALUE,
-    useMongoClient: true,
-  },
+  constants.mongoURI
 );
 
 require('./models/UrlShorten');
